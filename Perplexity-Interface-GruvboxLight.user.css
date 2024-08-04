@@ -481,7 +481,6 @@ a[href="/pro"] {
 	}
 	
 	
-	
 
 	
 	
@@ -616,7 +615,6 @@ span.line-clamp-1 {
 		font-size : 0.7rem !important ; 
 		font-weight: 500 !important ; 
 		border: solid 2.7px #fb4934  !important ; 
-		padding: 6px 12px 5px 12px !important ; 
 			transition: padding 0.4s ease-in-out !important; 
 }
 	
@@ -633,8 +631,7 @@ span.line-clamp-1 {
 	/*Youtube citation */
 :is(.ace_placeholder.ace_comment,.font-mono), :is(code,.font-mono) {
 	color:#fb4934 !important;
-	background-color:#fbf1c7 !important;
-	border : solid 3px #fb4934 !important ; 
+	background-color:#f9f5d7 !important;
 		padding: 9px 13px 9px 13px !important ; 
     font-synthesis: none;
     font-weight: 700 !important;
@@ -642,10 +639,35 @@ font-family: "commitMono" !important ;
 	font-size: 14px !important; 
 }
 	
+	/*Code Styles*/
+	/*Most Inner code div*/
+	.sc-gEvDqW.bMrXuF code {
+  background-color: #f2e5bc !important ; 
+		border: solid 3px #83a598 !important ; 
+}
+	
+	
+	/* Code Language  name */
+	.text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark {
+  color: #fb4934 !important; 
+  background-color: transparent !important;
+		border  : solid 1px !important ; 
+		border-radius: 4px !important ; 
+		padding : 1px 19px 1px 19px !important ; 
+	}
+	
+	
 
 	
 	
-	
+/* Applies border to all inline code blocks except .sc-gEvDqW.bMrXuF and .text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark */
+code:not(.sc-gEvDqW.bMrXuF code):not(.text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark code) {
+  border: 2.4px solid #fb4934 !important;
+  padding: 1px 17px 1px 17px !important;
+  border-radius: 6px !important;
+  background-color: #fbf1c7 !important;
+  color: #fb4934 !important;
+}
 	
 	
 	
