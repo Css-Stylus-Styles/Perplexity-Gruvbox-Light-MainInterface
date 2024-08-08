@@ -35,7 +35,15 @@
 
 
 
-
+@font-face {
+    font-family: "Margon 360 W08 Medium";
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot");
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
+}
 
 
 
@@ -537,7 +545,9 @@ div.flex-col h1.text-3xl , div.whitespace-pre-line.break-words.default.font-disp
 	
 	li {
 		color  : #3c3836 !important ; 
-		font-family: "chivo" !important ; 
+	/*	font-family: "Lora medium" !important ;   */
+		@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
+		font-family: "Margon 360 W08 Medium" !important;
 		
 	}
 	
@@ -673,10 +683,27 @@ code:not(.sc-gEvDqW.bMrXuF code):not(.text-textOff.dark\:text-textOffDark.bg-off
 	
 	
 	
+	/*Books Recommandation background */
+/* Targets the background div and changes its color */
+div.gap-x-md.p-sm.rounded-lg , cursor-pointer.border{
+  background-color: #f2e5bc !important; /* Replace with your desired background color */
+}
+	
+	
+	/*Site where the infromatiion is pulled from -> background color */
+	/*Background color  */
+	.p-sm.flex.h-full.w-full.items-center.rounded-lg{
+  background-color :  #fbf1c7 !important ; 
+	}
+
 	
 	
 	
-	
+	/* Hover for the background color   */
+	.p-sm.flex.h-full.w-full.items-center.rounded-lg:hover{
+  background-color :  #ffd29c !important ; 
+	}
+
 	
 	/*Hovers for the Home  discover and libaray button */
 	.md\:hover\:bg-offsetPlus:hover , button.md\:hover\:bg-offsetPlus:hover{
