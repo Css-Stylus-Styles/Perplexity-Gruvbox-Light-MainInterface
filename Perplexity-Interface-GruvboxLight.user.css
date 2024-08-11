@@ -222,8 +222,11 @@ textarea::placeholder::before {
     --tw-ring-opacity: 1;
     --tw-ring-color:  #b8bb26 !important  ; 
 		background: #f9f5d7 !important ; 
-		font-family: "CommitMono" !important  ;  
-}
+		font-family: "Jetbrains Mono" !important  ;  
+		font-style:  italic !important ; 
+		font-size: 14px !important ;
+		font-weight:800 !important ;
+	}	
 	
 	/*lower background */
 	div.bg-background  {
