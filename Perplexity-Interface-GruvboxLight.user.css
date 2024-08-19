@@ -46,10 +46,17 @@
 }
 
 
+@font-face {
+    font-family: "CommitMono";
+    src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot");
+    src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.svg#CommitMono")format("svg");
+}
 
-
-
-
+@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
 
 
 
@@ -336,7 +343,7 @@ div.flex.items-center.leading-none.min-w-0.justify-left.w-full.gap-xs {
 	/*set font */
 	
 	.font-sans {
-    font-family: "commitMono","Harding web text regular"  !important ;
+    font-family: "CommitMono"   !important ;
 		font-weight: 700 !important  ; 
 		
 	}
@@ -551,6 +558,7 @@ div.flex-col h1.text-3xl , div.whitespace-pre-line.break-words.default.font-disp
 	/*	font-family: "Lora medium" !important ;   */
 		@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
 		font-family: "Margon 360 W08 Medium" !important;
+		font-weight: 400 !important ; 
 		
 	}
 	
