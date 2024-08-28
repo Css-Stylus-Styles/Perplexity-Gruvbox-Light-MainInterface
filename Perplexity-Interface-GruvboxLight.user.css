@@ -14,27 +14,38 @@
 
 
 
-
 	
-	@import url('https://c.webfontfree.com/c.js?f=HardingTextWeb-Regular');
-@import url(https://db.onlinewebfonts.com/c/7732caef9ed946f7916b3f650e8837c2?family=Harding+Text+Web+Regular+Regular);
-
 	
-	@font-face {
-    font-family: "Harding Text Web Regular Regular";
-    src: url("https://db.onlinewebfonts.com/t/7732caef9ed946f7916b3f650e8837c2.eot");
-    src: url("https://db.onlinewebfonts.com/t/7732caef9ed946f7916b3f650e8837c2.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/7732caef9ed946f7916b3f650e8837c2.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/7732caef9ed946f7916b3f650e8837c2.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/7732caef9ed946f7916b3f650e8837c2.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/7732caef9ed946f7916b3f650e8837c2.svg#Harding Text Web Regular Regular")format("svg");
-}
-
-
+	
+	
+	
 	
 
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*Font Import */
+	
+	
+	/*Importing Margon */
+	
+	
+	/*Margon Medium Import */
+	
 @font-face {
     font-family: "Margon 360 W08 Medium";
     src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot");
@@ -43,10 +54,82 @@
     url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
+}	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
+
+	
+	
+	
+	/*Bricolage Grotesque Import */
+	
+	
+	
+	
+	@font-face {
+    font-family: "Bricolage Grotesque";
+    src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot");
+    src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.svg#Bricolage Grotesque")format("svg");
 }
-
-
-@font-face {
+	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/102353a74d2e0700af3e11ef8a917b26?family=Bricolage+Grotesque) ;  
+	
+	
+	
+	
+	
+	
+	/*Lora Font Import*/
+	@font-face {
+    font-family: "Lora";
+    src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot");
+    src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.svg#Lora")format("svg");
+}
+	
+	
+	
+	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/5c803199923a6ed48112bebbb486b3e0?family=Lora);
+	
+	
+	
+	
+	
+	
+	
+	/*Lingistics Pro Font  */
+	
+	@font-face {
+    font-family: "Linguistics Pro";
+    src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot");
+    src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.svg#Linguistics Pro")format("svg");
+}
+	@import url(https://db.onlinewebfonts.com/c/3612352f3b0606a3a5d675e7279f7c17?family=Linguistics+Pro);
+	
+	
+	
+	
+	
+	/*Commit Mono*/
+	
+	@font-face {
     font-family: "CommitMono";
     src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot");
     src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot?#iefix")format("embedded-opentype"),
@@ -55,11 +138,60 @@
     url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.svg#CommitMono")format("svg");
 }
+	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
+	
+		
+	
+	
+	
+	/*Fira Mono */
+		
+	/* 
+	
+	Fira Mono font weights:
+  - Fira Mono 400 (Regular)
+  - Fira Mono 500 (Medium)
+  - Fira Mono 700 (Bold)
+*/
+	
+	
+/* fira-mono-regular - latin */
+/* fira-mono-latin-400-normal */
+	/* fira-mono-latin-400-normal */
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff) format('woff'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.ttf) format('truetype');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+	
+	
+	
+	
+	
 
-@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
-
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
     :root
 
@@ -222,15 +354,15 @@ textarea::placeholder::before {
 	
 	
 	
-	
+	/*Add font here */
 	/*Input box styles  */
 	.dark\:ring-borderMainDark:is(.dark *) ,  
 	textarea.overflow-auto{
     --tw-ring-opacity: 1;
     --tw-ring-color:  #b8bb26 !important  ; 
 		background: #f9f5d7 !important ; 
-		font-family: "Jetbrains Mono" !important  ;  
-		font-style:  italic !important ; 
+		font-family: "Fira Mono" !important ; 
+		font-style:  normal !important ; 
 		font-size: 14px !important ;
 		font-weight:800 !important ;
 	}	
@@ -340,15 +472,6 @@ div.flex.items-center.leading-none.min-w-0.justify-left.w-full.gap-xs {
 	
 	
 	
-	/*set font */
-	
-	.font-sans {
-    font-family: "CommitMono"   !important ;
-		font-weight: 700 !important  ; 
-		
-	}
-	
-	
 	/*BOTTOM OF THE PAGE */
 	
 	/*Change the color of the links bottom of the page */
@@ -453,6 +576,14 @@ div.flex.items-center.leading-none.min-w-0.justify-left.w-full.gap-xs {
 	
 
 	/*Hide the Where the knowledge begins text */
+	 span.font-regular.font-display.text-3xl{
+  display: none;
+}
+	
+	
+	
+	
+	
 	
 	
 
@@ -500,6 +631,13 @@ a[href="/pro"] {
 	
 	
 
+
+	
+	/*Font for the suggested changes */
+	.group.flex.cursor-pointer.items-center.justify-between.py-sm  , divdiv.transition-all{
+font-family: "CommitMono" !important ; 
+		
+	}
 	
 	
 	
@@ -541,18 +679,20 @@ div.flex-col h1.text-3xl , div.whitespace-pre-line.break-words.default.font-disp
 	}
 	
 	
-	
+	/*H2 Headings inside the Heading */
 	h2.mb-2.mt-6.text-lg{
   color: #427b58  !important;
-  font-family: 'Harding text web Regular' !important;
+    font-family: "Bricolage Grotesque" !important;
 		font-weight: 700 !important ;  
 }
 	
+	/*Paragraph syles are not working since something else is controlling this font */
 	p {
-		color: #3c3836 !important ; 
+		color: #fb4934 !important ; 
+		font-family: "Chivo" !important ; 
 	}
 	
-	
+
 	li {
 		color  : #3c3836 !important ; 
 	/*	font-family: "Lora medium" !important ;   */
@@ -578,7 +718,7 @@ div.flex-col h1.text-3xl , div.whitespace-pre-line.break-words.default.font-disp
 	
 	strong {
 		color:#625e07 !important;
-		font-family: "CommitMono" !important ; 
+ 	    font-family: "Bricolage Grotesque" !important;
 		font-size: 0.92rem !important ; 
 	}
 	
