@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.0.6
+@version        1.0.7
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -567,7 +567,9 @@
 	/*Home discover learn more adn DOwnload button text color */
 	div.text-align-center.relative.truncate {
 		color: #79740e !important;
+		font-family: "Bricolage Grotesque" !important; 
 	}
+	
 
 
 
@@ -1070,12 +1072,15 @@ span.token.macro.property.directive {
 
 
 
+	
+	/*Related font and color change */
+	
+	.transition-all.duration-300.md\:group-hover\:text-super.md\:dark\:group-hover\:text-superDark.default.font-sans.text-base.font-medium.text-textMain.dark\:text-textMainDark.selection\:bg-super\/50.selection\:text-textMain.dark\:selection\:bg-superDuper\/10.dark\:selection\:text-superDark{
+    /* Your styles here */
+		color:#516d39 !important ; 
+		font-family: "Karla" !important ; 
+}
 
-
-	
-	
-	
-	
 	
 	
 	
