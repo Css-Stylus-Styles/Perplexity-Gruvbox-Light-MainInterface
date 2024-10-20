@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.0.7
+@version        1.0.8
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -1080,8 +1080,14 @@ span.token.macro.property.directive {
 		color:#516d39 !important ; 
 		font-family: "Karla" !important ; 
 }
-
 	
+	/*Realted word */
+
+	.default.font-display.text-lg.font-medium.text-textMain.dark\:text-textMainDark.selection\:bg-super\/50.selection\:text-textMain.dark\:selection\:bg-superDuper\/10.dark\:selection\:text-superDark {
+    color: #fb4934 !important; 
+	font-family: "Bricolage Grotesque" !important ; 
+}
+
 	
 	
 	
