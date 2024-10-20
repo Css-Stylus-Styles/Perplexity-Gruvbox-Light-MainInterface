@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.0.5
+@version        1.0.6
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -935,9 +935,7 @@
 	}
 	
 
-span.token{
-		color : #fb4934  ; 
-	}
+
 	
 	/* Code Operators  */
 span.token.token.operator {
@@ -983,8 +981,10 @@ span.token.macro.property.directive {
     font-style: italic !important;
 }
 
-	
-	
+	/*Ugly organe color fixed */
+	span.token{
+		color : #625e07 !important ; 
+	}
 	
 	
 	
