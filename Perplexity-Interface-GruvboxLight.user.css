@@ -1,7 +1,8 @@
+
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.1.1
+@version        1.1.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -920,10 +921,10 @@
 	/*Main Citations*/
 div.inline-flex.h-\[1rem\].min-w-\[1rem\].items-center.justify-center.rounded-full.px-\[0\.3em\].text-center.font-mono.text-\[0\.60rem\].tabular-nums.md\:hover\:text-white.border-borderMain\/50.ring-borderMain\/50.divide-borderMain\/50.dark\:divide-borderMainDark\/50.dark\:ring-borderMainDark\/50.dark\:border-borderMainDark\/50.transition.duration-300.bg-offsetPlus.dark\:bg-offsetPlusDark.md\:hover\:bg-super {
     background-color: #f2e5bc !important;
-    color: #625e07 !important;
+    color: #516d39 !important;
 	font-size : 0.78rem !important ; 
-	padding : 0.2rem 0.6rem !important; 
-    border: 2.2px solid #b57614 !important;
+	padding : 0.3rem 0.5rem !important; 
+    border: 2.2px solid #5c7b42 !important;
 	font-family: "Bricolage Grotesque" !important ; 
 }
 
@@ -942,18 +943,6 @@ div.inline-flex.h-\[1rem\].min-w-\[1rem\].items-center.justify-center.rounded-fu
 
 
 	/* Code Language  name */
-	.text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark {
-		color: #fb4934 !important;
-		background-color: transparent !important;
-		font-weight: 700 !important;
-
-		border: #d5c4a1 solid 2px !important;
-		font-size: 0.7rem !important;
-		border-radius: 4px !important;
-		padding: 0rem 1rem !important;
-		line-height: 1rem !important;
-	}
-	
 .text-text-200 {
     /* Your styles here */
 		color: #fb4934 !important;
@@ -966,8 +955,6 @@ div.inline-flex.h-\[1rem\].min-w-\[1rem\].items-center.justify-center.rounded-fu
 		padding: 0rem 1rem !important;
 		line-height: 1rem !important;
 	}
-	
-	
 	
 
 	
@@ -1049,9 +1036,8 @@ span.token.macro.property.directive {
 	/* Applies border to all inline code blocks except .sc-gEvDqW.bMrXuF and .text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark */
 	code:not(.sc-gEvDqW.bMrXuF code):not(.text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark code) {
 
-		font-family:"Jetbrains Mono" , "Archivo", "Karla Bold", "Fira Mono" !important;
+		font-family:"Jetbrains Mono"!important;
 		font-weight: 700 !important;
-		border: 2.4px solid #3c3836 !important;
 		padding: 1px 17px 1px 17px !important;
 		border-radius: 6px !important;
 		background-color: #fbf1c7 !important;
@@ -1059,6 +1045,32 @@ span.token.macro.property.directive {
 	}
 
 
+	
+	
+	
+	
+	/* Style for code blocks  which lead to Border styles */
+pre code {
+    border: 0.17rem solid #3c3836 !important; 
+}
+
+/* Style for inline code */
+code:not(pre code) {
+    border: 0.17rem solid #fb4934 !important; 
+}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
@@ -1131,4 +1143,5 @@ span.token.macro.property.directive {
 	
 	
 }
+
 
