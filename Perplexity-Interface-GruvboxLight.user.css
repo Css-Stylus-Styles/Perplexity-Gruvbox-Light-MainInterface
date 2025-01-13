@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.1.0
+@version        1.1.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -845,6 +845,7 @@
 	a.break-word {
 		color: #fb4934 !important;
 		font-family: 'jetbrains Mono' !important;
+		text-decoration: underline !important ; 
 	}
 
 	/*link hover */
@@ -944,7 +945,6 @@ div.inline-flex.h-\[1rem\].min-w-\[1rem\].items-center.justify-center.rounded-fu
 	.text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark {
 		color: #fb4934 !important;
 		background-color: transparent !important;
-		font-family: "archivo" !important;
 		font-weight: 700 !important;
 
 		border: #d5c4a1 solid 2px !important;
@@ -954,7 +954,21 @@ div.inline-flex.h-\[1rem\].min-w-\[1rem\].items-center.justify-center.rounded-fu
 		line-height: 1rem !important;
 	}
 	
-
+.text-text-200 {
+    /* Your styles here */
+		color: #fb4934 !important;
+		background-color: transparent !important;
+		font-family: "Jetbrains Mono Variable" , "Jetbrains Mono" !important;
+		font-weight: 700 !important;
+		border: #98971a solid 2px !important;
+		font-size: 0.7rem !important;
+		border-radius: 4px !important;
+		padding: 0rem 1rem !important;
+		line-height: 1rem !important;
+	}
+	
+	
+	
 
 	
 	/* Code Operators  */
@@ -1035,9 +1049,9 @@ span.token.macro.property.directive {
 	/* Applies border to all inline code blocks except .sc-gEvDqW.bMrXuF and .text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark */
 	code:not(.sc-gEvDqW.bMrXuF code):not(.text-textOff.dark\:text-textOffDark.bg-offsetPlus.dark\:bg-offsetPlusDark code) {
 
-		font-family: "Archivo", "Karla Bold", "Fira Mono" !important;
-		font-weight: 800 !important;
-		border: 2.4px solid #fb4934 !important;
+		font-family:"Jetbrains Mono" , "Archivo", "Karla Bold", "Fira Mono" !important;
+		font-weight: 700 !important;
+		border: 2.4px solid #3c3836 !important;
 		padding: 1px 17px 1px 17px !important;
 		border-radius: 6px !important;
 		background-color: #fbf1c7 !important;
@@ -1117,5 +1131,4 @@ span.token.macro.property.directive {
 	
 	
 }
-
 
