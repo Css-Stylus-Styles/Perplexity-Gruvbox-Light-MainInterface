@@ -20,7 +20,6 @@
 
 
 #### Todos : 
-- Better code colors 
 - Better paragarph font (Used some good and clean font ) 
     - see the bookmarks Typogarphy
 - Similar questions is a very important area and should be given more care such as the answers are easey to read 
@@ -30,3 +29,6 @@
     - Font for the user sent query is not working 
     - use better font for the user input make sure its clearly readable 
     - fix divs disappering issue 
+
+
+    - The border needs to be stronger on every element take more inspiration from the google io 2024 website 
