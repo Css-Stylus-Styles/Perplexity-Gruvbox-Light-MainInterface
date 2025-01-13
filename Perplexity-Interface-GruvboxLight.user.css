@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.1.2
+@version        1.1.3
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -957,21 +957,6 @@ div.inline-flex.h-\[1rem\].min-w-\[1rem\].items-center.justify-center.rounded-fu
 	}
 	
 
-	
-	/* Code Operators  */
-span.token.token.operator {
-    font-weight: bold !important;
-    color: #fb4934 !important; 
-    padding: 0 3px !important; 
-    border-radius: 3px !important; 
-}
-
-
-	/* Selector for the span with specific classes */
-span.token.macro.property.directive {
-    color: #fb4934 !important;  
-    font-weight: bold !important;
-}
 
 	
 	
@@ -983,46 +968,6 @@ span.token.macro.property.directive {
     border-radius: 3px !important; 
 }
 	
-	/*Define in c type language */
-	/*Css Code number  */
-	span.token.token.macro.property.expression {
-    color: #457784 !important; 
-}
-
-	/*pronounciation */
-	.token.token.punctuation {
-    color: #282828 !important;
-    font-weight: normal !important;
-}
-
-	
-	/*Code comments*/
-	.token.token[style*="rgb(142, 144, 140)"][style*="italic"] {
-    color: #928374 !important; /* Change to your desired color */
-    font-style: italic !important;
-}
-
-	/*Ugly organe color fixed */
-	span.token{
-		color : #625e07 !important ; 
-	}
-	
-	
-	
-	
-		
-	/*Code  enum comments*/
-	.token.token[style*=" rgb(66, 113, 174)"] {
-    color: #458588 !important; 
-}
-
-	
-	
-	
-	/* Void int keywords in C kinda languages */	
-.token.token[style*="color: rgb(137, 89, 168);"][style*="font-weight: bolder;"] {
-    color: #5c7b42 !important; 
-}
 
 	
 	
@@ -1061,18 +1006,115 @@ code:not(pre code) {
 	
 	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
+	
+	/*Light Grubox Code colors */
+	/*Gruvbox Code colors */
+	
+	
+	
+	
+/* Target the string color */
+span.token.token[style*="color: rgb(113, 140, 0)"] {
+    color: #79740e !important; /* Gruvbox Yellow */
+}
 
+/* Punctuation */
+.token.punctuation {
+    color: #d3869b !important; /* Gruvbox Default text color */
+}
+
+/* Functions and Methods */
+.token.function {
+    color: #427b58 !important; /* Gruvbox Green */
+}
+
+/* Target the collections color */
+span.token.token[style*="color: rgb(200, 40, 41)"] {
+    color: #fb4934 !important; /* Gruvbox Red */
+}
+
+/* Attributes and Macros */
+.token.attribute, .token.macro.property {
+    color: #fb4934 !important; /* Gruvbox Orange */
+}
+
+/* Constants and Booleans */
+.token.constant, .token.boolean {
+    color: #b16286 !important; /* Gruvbox Purple */
+}
+
+/* Variables and Parameters */
+.token.variable, .token.parameter {
+    color: #458588 !important; /* Gruvbox Blue */
+}
+
+/* Operators */
+.token.operator {
+    color: #fb4934 !important; /* Gruvbox Red */
+}
+
+/* Numbers */
+.token.number {
+    color: #b16286 !important; /* Gruvbox Purple */
+}
+
+/* Closures and Lambdas */
+.token.closure-params, .token.closure-punctuation {
+    color: #458588 !important; /* Gruvbox Blue */
+}
+
+/* Library and Built-in Types */
+.token.library, .token.builtin {
+    color: #98971a !important; /* Gruvbox Green */
+}
+
+/* Error Handling */
+.token.error {
+    color: #fb4934 !important; /* Gruvbox Red */
+}
+
+/* Highlighting for Rust-specific tokens */
+.token.rust-specific {
+    color: #458588 !important; /* Gruvbox Blue */
+}
+
+/* Generic Selectors for Other Languages */
+.token.tag, .token.selector, .token.property {
+    color: #427b58 !important; /* Gruvbox Green */
+}
+
+.token.attr-value {
+    color: #b8bb26 !important; /* Gruvbox Yellow */
+}
+
+/* Target the blue color for BookNotFound */
+span.token.token[style*="color: rgb(66, 113, 174)"] {
+    color: #458588 !important; /* Gruvbox Blue */
+}
+
+/* Target the magenta color for enum */
+span.token.token[style*="color: rgb(137, 89, 168)"] {
+    color: #98971a !important; /* Gruvbox Magenta */
+    font-weight: bolder !important;
+}
+
+	/* Target the comment color */
+span.token.token[style*="color: rgb(142, 144, 140)"] {
+    color: #a89988 !important; /* Gruvbox Gray */
+    font-family: inherit !important; /* Preserve font family */
+    font-style: italic !important; /* Preserve italic style */
+}
+	
+	/* Target the magenta color for enum */
+span.token.token[style*="color: rgb(77, 77, 76)"] {
+    color: #5c7b42 !important; /* Gruvbox Magenta */
+    font-weight: bolder !important;
+}
+
+	
+	
+	
 
 
 	/*Books Recommandation background */
