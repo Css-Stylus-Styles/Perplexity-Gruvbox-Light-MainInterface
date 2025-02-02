@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.2.2
+@version        1.2.3
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -621,6 +621,19 @@ div.prose > span {
 	}
 	
 
+	/*Share , Rewrites*/
+	/*HOver */
+	button.focus-visible\:bg-offsetPlus.dark\:focus-visible\:bg-offsetPlusDark.md\:hover\:bg-offsetPlus.text-textOff.dark\:text-textOffDark.md\:hover\:text-textMain.dark\:md\:hover\:bg-offsetPlusDark.dark\:md\:hover\:text-textMainDark.font-sans.focus\:outline-none.outline-none.outline-transparent.transition.duration-300.ease-out.font-sans.select-none.items-center.relative.group\/button.justify-center.text-center.items-center.rounded-full.cursor-pointer.active\:scale-\[0\.97\].active\:duration-150.active\:ease-outExpo.origin-center.whitespace-nowrap.inline-flex.text-sm.px-sm.font-medium.h-8:hover {
+  /* Add your hover styles here */
+  background-color: #ffd29c !important; 
+	border: solid 3px #282828 !important ; 
+		
+}
+	
+	
+	
+	
+	
 	
 	
 	
