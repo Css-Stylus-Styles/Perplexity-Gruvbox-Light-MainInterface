@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.2.0
+@version        1.2.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -583,7 +583,10 @@ div.prose > span {
 
 	/*send button background */
 	button.bg-idle {
-		background-color: #d5c4a1 !important;
+		background-color: #ffd29c !important;
+		fill: black !important ; 
+		opacity: 1 !important ;
+		border: solid 2px !important ;
 	}
 
 
@@ -591,6 +594,7 @@ div.prose > span {
 	.dark\:bg-superDark {
 		--tw-bg-opacity: 1;
 		background-color: #f9f5d7 !important;
+		
 	}
 
 
