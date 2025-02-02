@@ -33,3 +33,5 @@
 
     - The border needs to be stronger on every element take more inspiration from the google io 2024 website 
     - Border colors changed (may turn this to black or some other oclors inteh citations to draw attention ) 
+
+    - Send button pro button needs to be better 
