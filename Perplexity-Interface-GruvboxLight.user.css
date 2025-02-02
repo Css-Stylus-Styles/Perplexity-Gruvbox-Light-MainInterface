@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.2.1
+@version        1.2.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -614,11 +614,17 @@ div.prose > span {
 
 	/*Home discover learn more adn DOwnload button text color */
 	div.text-align-center.relative.truncate {
-		color: #79740e !important;
-		font-family: "Bricolage Grotesque" !important; 
+		color: #516d39 !important;
+		font-family: var(--font-BricolageGrotesque) !important; 
+		font-stretch: 90% !important ; 
+		opacity: 1 !important ; 
 	}
 	
 
+	
+	
+	
+	
 
 
 
