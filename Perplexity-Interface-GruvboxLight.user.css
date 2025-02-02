@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.2.3
+@version        1.2.4
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -1258,6 +1258,25 @@ span.token.token[style*="color: rgb(77, 77, 76)"] {
 	
 	
 	
+	
+	
+	
+	
+	/*BUTTONS*/
+	
+	
+	/*Expand and new chat button */
+	button.bg-offsetPlus.dark\:bg-offsetPlusDark.rounded-full.group\/button {
+  background-color: #f9f5d7 !important; 
+		border: solid 3px #d5c4a1 !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
 
 	
 	
@@ -1265,11 +1284,9 @@ span.token.token[style*="color: rgb(77, 77, 76)"] {
 	
 	/* BORDER COLORS */
 	
-	
-	/*User Prompt inner div BORDER*/
-	div.w-full.outline-none.focus\:outline-none.focus\:ring-borderMain.font-sans.flex {
- 
-		border : solid #d5c4a1 3px !important ; 
+
+	.bg-offsetPlus.dark\:bg-offsetPlusDark.text-textMain.dark\:text-textMainDark {
+    opacity: 1!important;
 }
 	
 	
