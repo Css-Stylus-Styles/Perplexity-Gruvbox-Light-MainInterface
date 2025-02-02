@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.1.8
+@version        1.1.9
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -929,33 +929,58 @@ div.prose > span {
 		font-family: "Chivo" !important;
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*Citation styles */
 	/*Youtube citation */
-	:is(.ace_placeholder.ace_comment) {
-		color: #fb4934 !important;
+:is(.ace_placeholder.ace_comment,.font-mono), :is(code,.font-mono) {
+	
+		
+	color: #fb4934 !important;
 		background-color: #fbf1c7 !important;
-		border: solid 2px #928374 !important;
-		padding: 0.1rem 0.6rem !important;
-		font-weight: 700 !important;
-		font-family: "Hack" !important;
-		font-size: 0.8rem !important;
+		border: solid 2px #282828 !important;
+		padding: 0.1rem 0.3rem !important;
+		font-synthesis: none;
+		font-weight: 800 !important;
+		font-family: var(--font-BricolageGrotesque) !important ; 
+		font-stretch: normal !important ; 
+		font-size: 14px !important;
 	}
 
 
 
 	/*Citations hover */
 	/*Youtube Hover */
-	.ace_placeholder.ace_comment:hover {
+	:is(.ace_placeholder.ace_comment,.font-mono):hover, :is(code,.font-mono):hover{
 
-		color: #fb4934 !important;
-		background-color: #ffd29c !important;
-		border: solid 2px #3c3836 !important;
-		padding: 0.2rem 0.9rem !important;
+		color: #f2e5bc !important;
+		background-color: #516d39 !important;
+		border: solid 3px #1d1b1a !important;
+		padding: 0.1rem 0.6rem !important;
 		font-synthesis: none;
 		font-weight: 700 !important;
-		font-family: "commitMono" !important;
+		font-family: var(--font-BricolageGrotesque) !important ; 
+		font-stretch: normal !important ; 
 		font-size: 14px !important;
+		
+		/*Transitionn*/
+		transition: background 0.4s ease-in-out , padding 0.4s ease-in-out !important  ;
 	}
+	
+	
+	
+	
+	
+	
 
 
 
