@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.1.7
+@version        1.1.8
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -433,21 +433,40 @@
 	
 
 	/*Font Sans */
+	/*Related question */
 	.font-sans:not(div.flex.w-full.rounded-lg){
 		
-		font-family: "Literata Variable"  !important;
+		font-family: var(--font-BricolageGrotesque) !important ; 
 		font-style: normal !important;
-		font-weight: 500 !important;
+		font-weight: 550 !important;
+		color: #282828 !important ;
+		font-stretch: semi-condensed !important ;
 	}
 
 
 
+	.font-sans {
+		
+		font-size: 0.89rem !important ;
+	}
 
+	
+	
+	
+	
+	/*Font for the paragraph*/
 
-
-
-
-
+div.prose:not(span) {
+	
+		font-size: 1.2rem !important ;
+}
+	
+	/*Bold font */
+div.prose > span {
+	
+		font-size: 1.01rem !important ;
+	color: #282828 !important ; 
+}
 
 
 
@@ -826,7 +845,7 @@
 
 
 	li {
-		color: #3c3836 !important;
+		color: #1d1b1a !important;
 		/*	font-family: "Lora medium" !important ;   */
 		font-family: "Linguistics Pro" !important;
 		font-size: 1rem !important;
@@ -848,12 +867,6 @@
 	}
 
 
-
-	strong {
-		color: #625e07 !important;
-		font-family: "Bricolage Grotesque" !important;
-		font-size: 0.92rem !important;
-	}
 
 
 
