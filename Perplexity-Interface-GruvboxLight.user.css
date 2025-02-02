@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Perplexity Light Interface style 
 @namespace      github.com/openstyles/stylus
-@version        1.1.9
+@version        1.2.0
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -441,6 +441,9 @@
 		font-weight: 550 !important;
 		color: #282828 !important ;
 		font-stretch: semi-condensed !important ;
+		
+		
+		
 	}
 
 
@@ -973,7 +976,7 @@ div.prose > span {
 		font-size: 14px !important;
 		
 		/*Transitionn*/
-		transition: background 0.4s ease-in-out , padding 0.4s ease-in-out !important  ;
+		transition: background 0.3s ease-in-out , padding 0.3s ease-in-out !important  ;
 	}
 	
 	
@@ -982,19 +985,6 @@ div.prose > span {
 	
 	
 
-
-
-
-	/*External Websites */
-	/*Main Citations*/
-div.inline-flex.h-\[1rem\].min-w-\[1rem\].items-center.justify-center.rounded-full.px-\[0\.3em\].text-center.font-mono.text-\[0\.60rem\].tabular-nums.md\:hover\:text-white.border-borderMain\/50.ring-borderMain\/50.divide-borderMain\/50.dark\:divide-borderMainDark\/50.dark\:ring-borderMainDark\/50.dark\:border-borderMainDark\/50.transition.duration-300.bg-offsetPlus.dark\:bg-offsetPlusDark.md\:hover\:bg-super {
-    background-color: #f2e5bc !important;
-    color: #516d39 !important;
-	font-size : 0.78rem !important ; 
-	padding : 0.3rem 0.5rem !important; 
-    border: 2.2px solid #5c7b42 !important;
-	font-family: "Bricolage Grotesque" !important ; 
-}
 
 
 
@@ -1245,7 +1235,37 @@ span.token.token[style*="color: rgb(77, 77, 76)"] {
 	
 	
 	
-	/*Add hover to the ciration main ones */
+
+	
+	
+	
+	
+	/* BORDER COLORS */
+	
+	
+	/*User Prompt inner div BORDER*/
+	div.w-full.outline-none.focus\:outline-none.focus\:ring-borderMain.font-sans.flex {
+ 
+		border : solid #d5c4a1 3px !important ; 
+}
+	
+	
+	
+	
+	/*User Prompt outer div */
+   .grow block , 	.rounded-full.md\:p-sm.bg-offset.dark\:bg-offsetDark{
+
+		background: #f9f5d7 !important ;
+		border: none !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
